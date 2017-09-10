@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+header {
+  	position: absolute;
+  	left: 0px;
+  	top: 0px;
+  	color: #333;
+  	background: #ffffff;
+  	float: left;
+  	width: 100%;
+  	border-bottom: 2px solid #cccccc; 
+  }
+
+ h1 {
+	margin: 0px 0px 0px 100px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 28px;
+	color: #ffffff;
+	background: #4aaaa5;
+	width: 280px;
+	text-align: center;
+	float: left;
+	height: 100%;
+ }
+
+#right-corner {
+	float: left;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+    top: 0px;
+    left: 745px;
+	height: 10px;
+	padding: 40px;
+	text-align: center;
+	width: 270px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #ccc;
+}
+.container{
+	clear: both;
+	padding: 10px;
+	margin: 0 auto;
+}
+
+h2 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	margin: 15px 0px 20px 10px;
+}
+
+#biobreak{
+	margin: 0px 0px 25px 0px;
+}
+
+#main-bio{
+	margin: 40px 40px 40px 80px;
+	float: left;
+	padding: 20px;
+	border: 0.5px solid #dddddd;
+	background: #ffffff;
+	width: 650px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height: 28px
+}
+
+#contact-info{
+	padding: 5px;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	float: left;
+	font-size: 13px;
+	border: 0.5px solid #dddddd;
+	background: #ffffff;
+	margin: 40px 10px 0px 0px;
+	width: 220px;
+	height: 145px;
+}
+
+#connectbreak{
+	width: 90%;
+	margin: -4px 0px 10px 7px;
+}
+
+
+footer {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 9px;
+	color: #ccc;
+	clear: both;
+ 	padding: 40px;
+	clear: both;
+  	background: #666;
+  	text-align: center;
+  	border-top: 7px solid #4aaaa5;
+  	width: 100%;
+  	margin: 0px 0px 0px 0px;
+}
+body{
+	background-image: url("../images/concrete_seamless.png");
+}

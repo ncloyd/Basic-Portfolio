@@ -33,13 +33,22 @@ header {
     top: 0px;
     left: 745px;
 	height: 10px;
-	padding: 40px;
-	text-align: center;
-	width: 270px;
+	padding: 20px;
+	width: 2000px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ccc;
 }
 
+#about {
+	float:left;
+}
+
+#portfolio {
+	float:left;
+}
+#contact {
+	float:left;
+}
 
 .container{
 	clear: both;

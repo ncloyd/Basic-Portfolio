@@ -53,16 +53,21 @@ header {
 }
 
 a:link {
+    color: #777777;
     text-decoration: none;
 }
 a:unvisited{
+	color: #777777;
 	text-decoration: none;
 }
 
 a:visited {
+	color: #777777;
 	text-decoration: none;
 }
+
 a:hover {
+	color: #777777;
 	text-decoration: none;
 }
 

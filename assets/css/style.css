@@ -28,26 +28,55 @@ header {
  }
 
 #right-corner {
+	text-align: center;
 	float: left;
 	position: absolute;
-    top: 0px;
-    left: 745px;
+    top: 20px;
+    left: 765px;
 	height: 10px;
-	padding: 20px;
-	width: 2000px;
+	width: 900px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ccc;
 }
 
-#about {
-	float:left;
+#vert {
+ position: relative;
+ top: 10px;
+  left: 0px;
+  float:left;
+  background: #dddddd;
+  border: 0;
+  color:#ccc;
+  display:inline-block;
+  height:20px;
+  width:1px;
 }
 
+a:link {
+    text-decoration: none;
+}
+a:unvisited{
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#about {
+	float:left;
+	padding: 20px;
+}
 #portfolio {
 	float:left;
+	padding: 20px;
 }
 #contact {
 	float:left;
+	padding: 20px;
 }
 
 .container{
@@ -63,7 +92,11 @@ h2 {
 }
 
 #biobreak{
-	margin: 0px 00px 25px 0px;
+	margin: 0px 7px 25px 7px;
+	height: 2px;
+	background: #dddddd;
+	color: #ccc;
+	border: 0;
 }
 
 #bio-image{
@@ -94,16 +127,20 @@ p{
 	font-size: 13px;
 	border: 0.5px solid #dddddd;
 	background: #ffffff;
-	margin: 40px 10px 0px 0px;
+	margin: 40px 10px 10px 0px;
 	width: 220px;
 	height: 145px;
 }
 
 #connectbreak{
+	display: inline-block;
 	width: 90%;
-	margin: -4px 0px 10px 7px;
+	margin: -4px 0px 15px 7px;
+	height: 1px;
+	background: #dddddd;
+	color: #ccc;
+	border: 0;
 }
-
 
 footer {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;

@@ -28,18 +28,57 @@ header {
  }
 
 #right-corner {
-	float: left;
-	margin: 0px 0px 0px 0px;
-	position: absolute;
-    top: 0px;
-    left: 745px;
-	height: 10px;
-	padding: 40px;
 	text-align: center;
-	width: 270px;
+	float: left;
+	position: absolute;
+    top: 20px;
+    left: 765px;
+	height: 10px;
+	width: 900px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #ccc;
 }
+
+#vert {
+ position: relative;
+ top: 10px;
+  left: 0px;
+  float:left;
+  background: #dddddd;
+  border: 0;
+  color:#ccc;
+  display:inline-block;
+  height:20px;
+  width:1px;
+}
+
+a:link {
+    text-decoration: none;
+}
+a:unvisited{
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+
+#about {
+	float:left;
+	padding: 20px;
+}
+#portfolio {
+	float:left;
+	padding: 20px;
+}
+#contact {
+	float:left;
+	padding: 20px;
+}
+
 .container{
 	clear: both;
 	padding: 10px;
@@ -53,7 +92,11 @@ h2 {
 }
 
 #biobreak{
-	margin: 0px 0px 25px 0px;
+margin: 0px 7px 25px 7px;
+	height: 2px;
+	background: #dddddd;
+	color: #ccc;
+	border: 0;
 }
 
 #main-bio{
@@ -83,7 +126,12 @@ h2 {
 
 #connectbreak{
 	width: 90%;
-	margin: -4px 0px 10px 7px;
+	margin: -4px 0px 15px 7px;
+	height: 1px;
+	background: #dddddd;
+	color: #ccc;
+	border: 0;
+	display: inline-block;
 }
 
 

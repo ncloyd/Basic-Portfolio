@@ -91,28 +91,67 @@ a:hover {
 }
 
 h2 {
+	font-size: 26px;
 	color: #4aaaa5;
 	font-family: 'Georgia', Times, Times New Roman, serif;
-	margin: 15px 0px 20px 10px;
+	margin: 10px 0px 20px 0px;
 }
 
 #biobreak{
-margin: 0px 7px 25px 7px;
-	height: 2px;
+	width: 100%;
+	margin: 0px 0px 25px 0px;
+	padding: 0.9px;
 	background: #dddddd;
 	color: #ccc;
 	border: 0;
 }
 
 #main-bio{
+	font-size: 18px;
 	margin: 40px 40px 40px 80px;
 	float: left;
-	padding: 20px;
+	padding: 30px;
 	border: 0.5px solid #dddddd;
 	background: #ffffff;
 	width: 650px;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	line-height: 28px
+	font-weight: 550;
+	line-height: 28px;
+	color: #777777;
+}
+
+#name{
+	width: 100%;
+	padding: 5px;
+}
+
+#email{
+	width: 100%;
+	padding: 5px;
+}
+
+#comment{
+	height: 250px;
+	width: 100%;
+	margin: 0px 0px 0px 0px;
+}
+
+#sub{
+	width: 100px;
+	height: 36px;
+	margin: 10px 0px 0px 0px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-size: 16px;
+	border: none;
+}
+
+h3 {
+	font-size: 21px;
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	padding: 3px;
+	margin: 20px 0px 0px 0px;
 }
 
 #contact-info{
@@ -121,17 +160,15 @@ margin: 0px 7px 25px 7px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
 	float: left;
-	font-size: 13px;
 	border: 0.5px solid #dddddd;
 	background: #ffffff;
-	margin: 40px 10px 0px 0px;
-	width: 220px;
-	height: 145px;
+	margin: 40px 10px 40px 0px;
+	width: 260px;
+	height: 180px;
 }
-
 #connectbreak{
-	width: 90%;
-	margin: -4px 0px 15px 7px;
+	width: 80%;
+	margin: 15px 10px 15px 10px;
 	height: 1px;
 	background: #dddddd;
 	color: #ccc;
@@ -141,18 +178,18 @@ margin: 0px 7px 25px 7px;
 
 
 footer {
+	width: 100%;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 9px;
 	color: #ccc;
 	clear: both;
  	padding: 40px;
-	clear: both;
   	background: #666;
   	text-align: center;
   	border-top: 7px solid #4aaaa5;
-  	width: 100%;
   	margin: 0px 0px 0px 0px;
 }
+
 body{
 	background-image: url("../images/concrete_seamless.png");
 }
